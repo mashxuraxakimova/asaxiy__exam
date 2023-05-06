@@ -1,0 +1,47 @@
+.search {
+    padding: 15px 0;
+}
+.search_input {
+    width: 800px;
+    height: 40px;
+    justify-content: center;
+    outline: none;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #b3b3b3;
+    padding: 20px;
+    margin: 20px 0          ;
+}
+
+.search__button {
+    width: 45px;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    border: 1px solid #b3b3b3;
+    font-size: 16px;
+    color: #676666;
+}
+
+.post__title {
+    font-size: 20px;
+    color: rgb(4, 111, 219);
+}
+
+.post__ID {
+    font-size: 13px;
+    display: none;
+}
+
+/* article {
+    width: 850px;
+}
+
+form,
+main {
+    margin: 0 0 0 300px;
+    line-height: 25px;
+} */
+
+
+.post__body {
+    margin-bottom: 20px;
+}

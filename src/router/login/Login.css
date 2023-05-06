@@ -1,0 +1,118 @@
+.login {
+    width: 100%;
+    padding: 100px 0;
+    display: grid;
+    place-items: center;
+}
+
+.login__box {
+    width: 450px;
+    height: 450px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px #0002;
+    background: #fff;
+}
+
+.login__title {
+    color: var(--bg-py);
+    padding: 15px 0;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.login__formInp {
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    font-size: 16px;
+    outline: none;
+}
+
+.login__formBtn {
+    width: 70%;
+    height: 40px;
+    margin: auto;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: var(--bg-py);
+    font-size: 18px;
+    color: #fff;
+    margin-top: -30px;
+}
+
+.login__flower {
+    margin: auto;
+    width: 300px;
+    height: 190px;
+}
+
+
+@media screen and (max-width: 1350px) {
+    .login__box {
+        width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 970px) {
+    .login__box {
+        width: 500px;
+        margin-top: 15px;
+    }
+    .login__flower {
+        width: 150px;
+        height: 200px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login__box {
+        width: 500px;
+        margin-top: 15px;
+        }
+}
+
+@media screen and (max-width: 500px) {
+    .login__box {
+        width: 400px;
+        }
+}
+@media screen and (max-width: 400px) {
+    .login__box {
+        width: 300px;
+        height: 360px;
+        margin-top: 90px;
+        }
+        .login__flower {
+            width: 200px;
+            height: 90px;
+        }
+}
+@media screen and (max-width: 300px) {
+    .login__box {
+        width: 280px;
+        margin: auto;
+        }
+}
+@media screen and (max-width: 1000px) {
+    .login__box {
+        margin-top: 10px;
+        }
+}

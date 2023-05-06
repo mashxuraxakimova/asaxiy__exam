@@ -1,0 +1,421 @@
+.nokia {
+    width: 100%;
+    height: 210px;
+    background: #0594f3;
+    padding-top: 40px;
+}
+
+.nokia__image {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 15px;
+    margin: 40px 0;
+}
+
+.sevimlilar {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    background: #f3f6fd;
+    z-index: 99;
+}
+
+.sevimlilar__border {
+    width: 100%;
+    border: 1px solid rgb(225, 223, 223);
+}
+
+.sevimlilar h1 {
+    margin-left: 100px;
+    color: black;
+    font-weight: 500;
+}
+
+.Sevimlilar {
+    margin: 25px 0 0 250px;
+    color: #4d4d4d;
+}
+
+.number {
+    width: 80px;
+    height: 25px;
+    margin: 35px 0 0 620px;
+    font-weight: 400;
+    border: 3px solid #0594f3;
+    border-radius: 7px;
+}
+
+.Reyting {
+    width: 250px;
+    height: 25px;
+    margin: 35px 0 0 20px;
+    border: 3px solid #0594f3;
+    border-radius: 7px;
+}
+
+.button__small {
+    width: 25px;
+    height: 25px;
+    margin-top: 35px;
+    background: #0594f3;
+    border: none;
+    border-radius: 8px;
+}
+
+.button__small svg {
+    color: #fff;
+
+}
+
+.sevimlilar__input {
+    width: 330px;
+    height: 25px;
+    display: flex;
+    background: #0594f3;
+}
+
+.asaxiy__dokon {
+    width: 100%;
+    height: 300px;
+    margin: 40px 0 0 0;
+}
+
+.asaxiy__dokoni {
+    width: 100%;
+    height: 250px;
+    background: #0594f3;
+    border-radius: 15px;
+    display: flex;
+    text-align: center;
+}
+.white__div {
+    background: #fff;
+    width: 100%;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.asaxiy__phones {
+    width: 450px;
+    height: 230px;
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+.banner__asaxiy {
+    width: 160px;
+    height: 30px;
+    background: #0594f3;
+    margin: auto;
+}
+
+.asaxiy__for__image {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.asaxiy__for__image h4 {
+    font-weight: normal;
+    margin-top: -60px;
+    font-size: 18px;
+}
+
+.asaxiy__for__logos {
+    height: 100px;
+    width: 500px;
+    gap: 20px;
+}
+
+.asaxiy__for__logos img {
+    width: 140px;
+    height: 40px;
+    margin-right: 20px;
+
+}
+
+.banner__bottom {
+    height: 230px;
+    background: #0594f3;
+    padding-top: 50px;
+}
+
+.banner__white {
+    height: 130px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 35px;
+    margin: auto;
+}
+
+.banner__white img {
+    width: 80px;
+    height: 40px;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.banner__text {
+    margin: auto;
+    width: 200px;
+}
+
+.banner__text h5 {
+    font-weight: normal;
+}
+
+.banner__text h4 {
+    font-weight:  600;
+}
+
+@media screen and (max-width: 990px) {
+    .banner img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .banner img {
+        height: 300px;
+    }
+    .sevimlilar {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banner img {
+        height: 200px;
+    }
+    .banner__white {
+        width: 400px;
+}
+    .banner__bottom {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 470px) {
+    .banner__white {
+        width: 300px;
+        padding: 0;
+}
+    .banner__text {
+        width: 100px;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 410px) {
+    .banner__white {
+        width: 200px;
+        margin: 0;
+}
+    .banner__text {
+        width: 100px;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1362px) {
+    .banner__bottom {
+        height: 680px;
+        padding: 0;
+        
+    }
+    .banner__white {
+        width: 900px;
+        height: 170px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        justify-content: center;
+    }
+    .container {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .banner__bottom {
+            height: 680px;
+            padding: 0;
+        }
+    
+    .banner__white {
+            width: 600px;
+            height: 170px;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+
+    .asaxiy__phones {
+            margin: 0;
+            margin-right: 500px;
+    }
+
+    .asaxiy__for__image {
+        padding: 0;
+        padding-left: 500px;
+    }
+
+    .asaxiy__dokoni {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 913px) {
+    .banner__bottom {
+        padding-top: 20px;
+        height: 900px;
+    }
+    .banner__white {
+        margin-top: 20px;
+    }
+    .asaxiy__dokon {
+        margin-bottom: 400px;
+    }
+    .asaxiy__dokoni {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        height: 600px;
+    }
+    .asaxiy__phones {
+            margin: 0;
+        }
+    
+    .asaxiy__for__image {
+            padding: 0;
+        }
+}
+
+@media screen and (max-width: 913px) {
+    .banner__bottom {
+            padding-top: 20px;
+            height: 1000px;
+        }
+    .banner__white {
+            margin-top: 5px;
+        }
+}
+
+@media screen and (max-width: 913px) {
+    .banner__white {
+        width: 400px;
+        }
+    .asaxiy__for__logos {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px 120px;
+
+    }
+    .asaxiy__phones {
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 1200px) {
+.sevimlilar {
+    width: 700px;
+    height: 130px;
+    padding: 0;
+
+}
+.sevimlilar__border {
+    width: 1150px;
+}
+.number {
+    margin: 35px 0 0 500px;
+}
+}
+@media screen and (max-width: 990px) {
+.sevimlilar {
+    width: 700px;
+    height: 130px;
+    padding: 0;
+
+}
+.sevimlilar__border {
+    width: 870px;
+}
+.number {
+    margin: 35px 0 0 300px;
+}
+}
+@media screen and (max-width: 900px) {
+.sevimlilar {
+    width: 700px;
+    height: 130px;
+    padding: 0;
+
+}
+.sevimlilar__border {
+    width: 750px;
+}
+.number {
+    margin: 35px 0 0 200px;
+}
+}
+@media screen and (max-width: 776px) {
+.sevimlilar {
+    width: 700px;
+    height: 130px;
+    padding: 0;
+    margin-top: 20px;
+
+}
+.Sevimlilar {
+    margin: 25px 0 0 5px;
+}
+.sevimlilar h1 {
+    margin-left: 10px;
+}
+.sevimlilar__border {
+    width: 600px;
+}
+.number {
+    margin: 35px 0 0 40px;
+}
+}
+@media screen and (max-width: 440px) {
+    .sevimlilar {
+    width: 300px;
+    height: 130px;
+    display: block;
+}
+    .sevimlilar__border {
+        margin-top: 100px;
+        width: 300px;
+    }
+    .banner__white {
+        width: 250px;
+        margin: auto
+    }
+    .number {
+        margin-left: 15px;
+    }
+    .Reyting {
+        margin-left: 15px;
+    }
+}
+@media screen and (max-width: 340px) {
+    .sevimlilar {
+    width: 300px;
+    height: 130px;
+    display: block;
+}
+    .sevimlilar__border {
+        margin-top: 100px;
+        width: 290px;
+    }
+    .banner__white {
+        width: 250px;
+        margin: auto
+    }
+    
+
+}
